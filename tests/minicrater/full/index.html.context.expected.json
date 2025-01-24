@@ -104,7 +104,7 @@
     ],
     [
       "fixed",
-      1,
+      2,
       {
         "Tree": {
           "count": 0,
@@ -114,14 +114,14 @@
     ],
     [
       "fixed",
-      1,
+      2,
       {
         "RootResults": {
           "count": 1,
           "results": {
             "build failed (unknown)": [
               {
-                "color_idx": 1,
+                "color_idx": 2,
                 "name": "beta-fixed (local)",
                 "res": "fixed",
                 "runs": [
@@ -139,7 +139,7 @@
                 "url": "https://github.com/rust-lang/crater/tree/master/local-crates/beta-fixed"
               },
               {
-                "color_idx": 1,
+                "color_idx": 2,
                 "name": "network-access (local)",
                 "res": "fixed",
                 "runs": [
@@ -167,10 +167,10 @@
       "Single": "#db3026"
     },
     {
-      "Single": "#5630db"
+      "Single": "#44176e"
     },
     {
-      "Single": "#44176e"
+      "Single": "#5630db"
     },
     {
       "Single": "#65461e"
@@ -191,10 +191,10 @@
       "Single": "#62a156"
     }
   ],
-  "crates_count": 17,
+  "crates_count": 18,
   "full": false,
   "info": {
-    "broken": 2,
+    "broken": 3,
     "build-fail": 2,
     "fixed": 2,
     "regressed": 4,

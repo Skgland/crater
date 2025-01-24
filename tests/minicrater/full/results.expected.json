@@ -20,6 +20,24 @@
     },
     {
       "krate": {
+        "Local": "beta-faulty-deps-ice"
+      },
+      "name": "beta-faulty-deps-ice (local)",
+      "res": "broken",
+      "runs": [
+        {
+          "log": "stable/local/beta-faulty-deps-ice",
+          "res": "broken:missing-deps"
+        },
+        {
+          "log": "beta/local/beta-faulty-deps-ice",
+          "res": "broken:missing-deps"
+        }
+      ],
+      "url": "https://github.com/rust-lang/crater/tree/master/local-crates/beta-faulty-deps-ice"
+    },
+    {
+      "krate": {
         "Local": "beta-fixed"
       },
       "name": "beta-fixed (local)",
