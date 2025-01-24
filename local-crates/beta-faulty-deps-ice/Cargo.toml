@@ -1,0 +1,7 @@
+[package]
+name = "beta-faulty-deps-ice"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ice-regression-lib = { git = "https://github.com/rust-lang/crater", rev = "cde1ba47a61bca52e56f779ee3596d186bf2cb61" }
